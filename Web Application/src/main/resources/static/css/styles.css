@@ -1,0 +1,44 @@
+body{
+    background-color: #EFF4F6;
+    font-family: 'Roboto', sans-serif;
+    color: #172A32;
+}
+
+.navbar{
+    background-color: #FDFEFF;
+}
+
+.themeButton{
+    background-color: #33b2e9;
+    border-radius: 0.5rem;
+    color: #fdfeff;
+}
+
+.form-check-input {
+    background-color: #B6BCBE !important;
+    border-color: #B6BCBE !important;
+}
+
+.form-check-input:checked {
+    background-color: #33B2E9 !important;
+    border-color: #33B2E9 !important;
+}
+
+.themeButton:hover{
+    background-color: #179AD2;
+    color: #FDFEFF;
+}
+
+
+.introStyle {
+    @media (min-width: 576px) { /*Small*/
+        width: 100%;
+    }
+    @media (min-width: 768px) { /*Medium*/
+        min-width: 40rem !important;
+    }
+}
+
+.spinner-border {
+    animation-duration: 3s;
+}
