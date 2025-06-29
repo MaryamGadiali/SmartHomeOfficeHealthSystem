@@ -10,6 +10,13 @@
 
 # Running the application overview
 There are 2 following sections, one for running the application with only the test database readings collected over the past month, and one for running the application alongside the hardware. Please use Windows 11 and Google Chrome if possible.
+## HTTPS Setup
+This project uses HTTPS via a Java KeyStore ('keys.jks'). For security reasons, this file is not included in the repository.
+To generate your own keystore, run the following command and place the file in ../Web Application/src/Main/resources:
+keytool -genkeypair -alias tomcat -keyalg RSA -keystore ./keys.jks
+This will open up an interactive dialog for you to fill in the relevant details.
+Remember the keystore and key password you have entered, and edit application.properties with your matching details.
+
 
 # Running the application without hardware devices but with the database readings I have gathered for over a month
 On the GitLab repo there is a file called ImportOfficeFlowProject.sql. This is my latest exported database (before May 2nd). To import it, which allows you to test the software application with existing data without needing to use the hardware devices, do the following steps.
