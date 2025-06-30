@@ -1,7 +1,7 @@
 # Smart Home Office Health system
 
 # Content in the repo
-+ Electronic scripts - These are all the code files for all the devices that were developed in Arduino IDE. There is also a folder called "libraries". To avoid you installing each library, when you open up the code in Arduino IDE, go to File -> Preferences -> Ensure the sketchbook location url is pointing to the "Electronic scripts" folder, so the libraries will automatically get included.  
++ Electronic scripts - These are all the code files for all the devices that were developed in Arduino IDE.
 + Web Application - This is the Java web application to run in Intellij which contains the API and user interface.
 + My dissertation... all 17000+ words :D
 + ImportOfficeFlowProject.sql - This is the latest database readings that were exported from my ongoing "testing" period of running the system in the background whilst I worked. 
